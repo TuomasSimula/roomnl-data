@@ -46,3 +46,6 @@ def get_data():
            sql = "SELECT * FROM rooms;"
            cursor.execute(sql)
            return(cursor.fetchall())
+
+if __name__ == "__main__":
+    update_data()
